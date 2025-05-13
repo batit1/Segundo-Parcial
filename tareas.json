@@ -4,7 +4,7 @@
         "prioridad": 2,
         "fecha_vencimiento": "2025/02/02",
         "dependencias": [],
-        "completada": false
+        "completada": true
     },
     "hola": {
         "nombre": "hola",
@@ -12,5 +12,14 @@
         "fecha_vencimiento": "2005/09/21",
         "dependencias": [],
         "completada": true
+    },
+    "tarea1": {
+        "nombre": "tarea1",
+        "prioridad": 1,
+        "fecha_vencimiento": "2000/02/18",
+        "dependencias": [
+            "hola"
+        ],
+        "completada": false
     }
 }
